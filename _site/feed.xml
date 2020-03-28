@@ -1,17 +1,307 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-14T01:13:39+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Adam Szopa</title><subtitle>I'll put stuff here. Eventually.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/03/14/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-03-14T00:25:08+01:00</published><updated>2020-03-14T00:25:08+01:00</updated><id>http://localhost:4000/jekyll/update/2020/03/14/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/03/14/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-28T21:03:38+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Adam Szopa</title><subtitle>I'll put stuff here. Eventually.</subtitle><entry><title type="html">KDE in app stores</title><link href="http://localhost:4000/kde/2020/03/28/KDE-in-app-stores.html" rel="alternate" type="text/html" title="KDE in app stores" /><published>2020-03-28T12:00:00+01:00</published><updated>2020-03-28T12:00:00+01:00</updated><id>http://localhost:4000/kde/2020/03/28/KDE-in-app-stores</id><content type="html" xml:base="http://localhost:4000/kde/2020/03/28/KDE-in-app-stores.html">&lt;h2 id=&quot;introduction&quot;&gt;INTRODUCTION&lt;/h2&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+&lt;p&gt;If you are a user of KDE software, there is a good chance that you’re on a Linux distribution and you download the software using that distributions repositories.
+But the fact is, you can get KDE software from a number of sources on different platforms. As project coordinator for KDE e.V. helping with &lt;a href=&quot;https://kde.org/goals&quot;&gt;KDE Goals&lt;/a&gt; I was tasked to look at app download statistics. Please join me in my quest to understand how popular are KDE apps on  various app stores.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;android&quot;&gt;ANDROID&lt;/h2&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Let’s start  with one of the most popular operating systems in the world, Android.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;h3 id=&quot;google-play&quot;&gt;Google Play&lt;/h3&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;First, we have the Play Store, the default way of downloading apps in the Google ecosystem. You can find all of the KDE published apps under a &lt;a href=&quot;https://play.google.com/store/apps/dev?id=4758894585905287660&quot;&gt;single developer account&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;/assets/playstore.png&quot; alt=&quot;KDE on the Google Play Store&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are only 7 apps published, but one is a very popular one: &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp&quot;&gt;KDE Connect&lt;/a&gt;. It has over &lt;strong&gt;half a million&lt;/strong&gt; downloads, and a respectable 4,6 rating with almost 15 thousand reviews. If we dig deeper when logged in into the developer console, we can see it has over 200 thousand active users.&lt;/p&gt;
+
+&lt;p&gt;I think the last metric is very important; raw downloads stats are informative, sure - but you can achieve a high download count with a good marketing push even if the app is mediocre. On the other hand, active users are those that installed and decided to keep the app.&lt;/p&gt;
+
+&lt;p&gt;By the way, Google Play defines “active installs” as those that had the app installed and were online in the last 30 days.&lt;/p&gt;
+
+&lt;p&gt;Here are the stats for all available apps:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Active Installs&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KDE Connect&lt;/td&gt;
+      &lt;td&gt;226 679&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KStars&lt;/td&gt;
+      &lt;td&gt;2 015&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KTuberling&lt;/td&gt;
+      &lt;td&gt;658&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KAlgebra&lt;/td&gt;
+      &lt;td&gt;572&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Behaim Globe&lt;/td&gt;
+      &lt;td&gt;511&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kirigami Gallery&lt;/td&gt;
+      &lt;td&gt;165&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Klimbgrades&lt;/td&gt;
+      &lt;td&gt;92&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;f-droid&quot;&gt;F-Droid&lt;/h3&gt;
+
+&lt;p&gt;The Google Play store in not the only way one can install apps. You can directly download .apk files and install them manually or use a 3-rd party store like F-Droid. I’m not sure if there is way to link to all KDE apps available there, but you can search for individual apps, like &lt;a href=&quot;https://f-droid.org/en/packages/org.kde.kdeconnect_tp/&quot;&gt;KDE Connect&lt;/a&gt;. There are no stats for downloads or active users on F-Droid.&lt;/p&gt;
+
+&lt;h2 id=&quot;windows&quot;&gt;WINDOWS&lt;/h2&gt;
+
+&lt;p&gt;I would expect that most Windows users don’t use an app store to get a KDE app - for many years the normal workflow to install new software is to google the name, find a download link, get the installer and install manually.
+But Windows does come with an app store of it own, and of course, KDE has apps available there as well. I couldn’t find a way to link to a single publisher, so the best I can do is a &lt;a href=&quot;https://www.microsoft.com/en-gb/search/shop/Apps?q=KDE%20e.V.&quot;&gt;pre-made search link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;On this app store we have even less apps published, only 6. The Windows store has a number of stats available to the developers, but I’ll highlight 30 day “acquisitions” which should be comparable to the statistic from Google Play.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Acquisitions&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kate&lt;/td&gt;
+      &lt;td&gt;32 067&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Okular&lt;/td&gt;
+      &lt;td&gt;23 811&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Filelight&lt;/td&gt;
+      &lt;td&gt;2 992&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kile&lt;/td&gt;
+      &lt;td&gt;2 391&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KStars&lt;/td&gt;
+      &lt;td&gt;1 825&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Elisa&lt;/td&gt;
+      &lt;td&gt;945&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;We don’t have a single juggernaut this time, the numbers are comparable between the top 2 apps.
+Fun observation: KStars has a similar amount of users on both the Google Play Store and the Windows Store.
+Not so fun fact: Kate has 61 user reviews, Okular 108. That’s not much compared to the number of users, if you’re one of them consider writing one!&lt;/p&gt;
+
+&lt;p&gt;Note: The public listing on the store shows even less reviews, for example only 3 total reviews for Kate. I’m not sure if this is somehow filtered for me due to location or language.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/kate_msstore.png&quot; alt=&quot;Kate on the Microsoft Store&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But I mentioned that the Windows Store is not the primary way of getting KDE apps on Windows. Using the stats available in the Microsoft Partner Center, I can see that Krita alone had reported &lt;strong&gt;millions of installs&lt;/strong&gt;. Other apps like Kdenlive, Kile, Kdevelop and Okular all have at least 200 thousand installs. I’m not sure how to interpret all of the data, but it shows the huge difference in the popularity of download methods.&lt;/p&gt;
+
+&lt;h2 id=&quot;snapcraft&quot;&gt;SNAPCRAFT&lt;/h2&gt;
+
+&lt;p&gt;This distribution independent app store hosts &lt;a href=&quot;https://snapcraft.io/publisher/kde&quot;&gt;96 KDE apps&lt;/a&gt;. To get usage numbers I needed to go into each app manually, go to the metric tab and there I can see “Weekly active devices”.&lt;/p&gt;
+
+&lt;p&gt;If there is ever a need to revisit these numbers more often I would spend some time to get the stats in a automated way, because the huge amount of apps published and the need for manual accessing each app makes this task very time consuming.&lt;/p&gt;
+
+&lt;p&gt;Anyway, here are the top 10 apps:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Installs&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Okular&lt;/td&gt;
+      &lt;td&gt;34 862&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Krita&lt;/td&gt;
+      &lt;td&gt;33 874&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kdenlive&lt;/td&gt;
+      &lt;td&gt;14 516&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kolourpaint&lt;/td&gt;
+      &lt;td&gt;9 607&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ark&lt;/td&gt;
+      &lt;td&gt;6 928&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ktorrent&lt;/td&gt;
+      &lt;td&gt;6 210&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kate&lt;/td&gt;
+      &lt;td&gt;3 483&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Umbrello&lt;/td&gt;
+      &lt;td&gt;3 253&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ktouch&lt;/td&gt;
+      &lt;td&gt;3 186&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KCalc&lt;/td&gt;
+      &lt;td&gt;3 066&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;…&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;All other apps combined&lt;/td&gt;
+      &lt;td&gt;48 668&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Some observations:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Not visible in the above list is the &lt;strong&gt;huge amount games&lt;/strong&gt;! Most of them have anywhere from 200 to 1000 active users. Perhaps they’re good candidates to include in the other app stores?&lt;/li&gt;
+  &lt;li&gt;Elisa and Kile are both available on the Windows Store but not on the Snap Store. I think that’s a missed opportunity.&lt;/li&gt;
+  &lt;li&gt;Some of the least popular packages are Kdevelop, Calligra, Filelight and Kontact. I think it shows that users of those apps either had them preinstalled on their systems or are predominantly looking for them elsewhere.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/kmines.png&quot; alt=&quot;Kmines screenshot&quot; /&gt;
+&lt;em&gt;Can you get on my level in Kmines?&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;flathub&quot;&gt;FLATHUB&lt;/h2&gt;
+
+&lt;p&gt;This other Linux focused app store has 38 KDE apps available. Similarly to the Windows Store instead of a publisher listing I can offer a &lt;a href=&quot;https://flathub.org/apps/search/kde&quot;&gt;search link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This store needed the most amount of work from me. Compared to the other stores, there is no “developer account” I could login to, instead all of the stats are available &lt;a href=&quot;https://flathub.org/stats/&quot;&gt;in the open&lt;/a&gt;. I like this approach, but unfortunately the data provided is just raw download numbers that need some treatment to be useful.  I used this &lt;a href=&quot;https://gitlab.com/ahayzen/flathub-api-stats-generator&quot;&gt;python tool&lt;/a&gt; to help me with that.&lt;/p&gt;
+
+&lt;p&gt;The other issue is understanding the numbers. The other app stores all provide some sort of metric that shows the active users in a time frame, but here I only have downloads. This means that if I would try to look at the number of downloads of an app in the last 30 days, but the app had 1 or more updates in that time it would duplicate users (once for the initial download, then again for each update downloaded).&lt;/p&gt;
+
+&lt;p&gt;To make some sense from all of this, I decided to look at the number of downloads since the last app update - assuming that active users keep apps up to date, this should more or less show the current usage. Again, I needed to do this work manually (check the last update date and ask for stats from then to now, for every app) and if this is not a one-off exercise a better way needs to be developed.&lt;/p&gt;
+
+&lt;p&gt;Fortunately for me, most of the apps were updated on March 5th so I could query for many of them at the same time. Since I gathered the stats on March 28th, it should be enough time for most users to download the update and thus show up as a active user.
+There are however some problems still: some apps show no update date at all (perhaps they were truly never updated) or had updates a long time ago (querying from that date would show huge cumulative download numbers). The other issue is that Krita was updated on March 25th, which could result in smaller reported number of downloads as users haven’t updated yet.&lt;/p&gt;
+
+&lt;p&gt;Based on all of these assumptions, I present my compiled list of top 10 apps that were updated on March 5th:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Downloads or updates between March 5-28&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kalzium&lt;/td&gt;
+      &lt;td&gt;38 959&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kgeography&lt;/td&gt;
+      &lt;td&gt;38 561&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Knavalbattle&lt;/td&gt;
+      &lt;td&gt;36 107&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kbounce&lt;/td&gt;
+      &lt;td&gt;31 467&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kbruch&lt;/td&gt;
+      &lt;td&gt;31 282&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kblocks&lt;/td&gt;
+      &lt;td&gt;30 971&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kdenlive&lt;/td&gt;
+      &lt;td&gt;30 843&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;kwordquiz&lt;/td&gt;
+      &lt;td&gt;30 169&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ksudoku&lt;/td&gt;
+      &lt;td&gt;30 133&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kgoldrunner&lt;/td&gt;
+      &lt;td&gt;30 038&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Now this is quite different from all other app stores. The app composition is different (3 educational apps, 6 games), and the download numbers are quite similar in the top 10. This means that either my method if flawed or flathub users are very different compared to other app stores.&lt;/p&gt;
+
+&lt;p&gt;For completion, some other stats:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Downloads&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gcompris March 5-28&lt;/td&gt;
+      &lt;td&gt;22 363&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gcompris since last update 2019-12-01&lt;/td&gt;
+      &lt;td&gt;67 961&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kdenlive March 5-28&lt;/td&gt;
+      &lt;td&gt;30 843&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kdenlive since last update 2020-02-11&lt;/td&gt;
+      &lt;td&gt;54 484&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;CONCLUSIONS&lt;/h2&gt;
+
+&lt;p&gt;What did I learn after going through all of this data?&lt;/p&gt;
+
+&lt;p&gt;While perhaps not the most popular way of acquiring KDE software, app stores sill serve hundreds of thousands of users. This number can get much higher if &lt;strong&gt;more apps become published on all of the stores&lt;/strong&gt; and the existing listings get some more love - &lt;strong&gt;reviews, better descriptions and screenshots&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Direct file downloads from repositories or mirrors dwarf the app store download numbers, but the stats from those are not collected for privacy reasons.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, a successful app store listing is something we can show the world and say “look here, this is a popular KDE app, check it out and maybe check out the others”.
+If you’d like to help with promoting KDE apps, check out the wiki page for one of KDE’s current goals &lt;a href=&quot;https://community.kde.org/Goals/All_about_the_Apps&quot;&gt;All about the Apps&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;ps&quot;&gt;PS&lt;/h3&gt;
+
+&lt;p&gt;Some apps have their own listings on app stores like &lt;a href=&quot;https://play.google.com/store/apps/details?id=net.gcompris.full&quot;&gt;Gcompris on the Play Store&lt;/a&gt; or &lt;a href=&quot;https://store.steampowered.com/app/280680/Krita/&quot;&gt;Krita on Steam&lt;/a&gt;. I did not include those in my stats.&lt;/p&gt;</content><author><name></name></author><summary type="html">INTRODUCTION</summary></entry></feed>
