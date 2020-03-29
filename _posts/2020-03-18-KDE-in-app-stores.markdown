@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "KDE in app stores"
-published: false
+published: true
 date:   2020-03-28 12:00:00 +0100
 categories: KDE
 ---
@@ -149,7 +149,7 @@ While perhaps not the most popular way of acquiring KDE software, app stores sil
 Direct file downloads from repositories or mirrors dwarf the app store download numbers, but the stats from those are not collected for privacy reasons.
 
 On the other hand, a successful app store listing is something we can show the world and say "look here, this is a popular KDE app, check it out and maybe check out the others".
-If you'd like to help with promoting KDE apps, check out the wiki page for one of KDE's current goals [All about the Apps](https://community.kde.org/Goals/All_about_the_Apps).
+If you'd like to assist with promoting KDE apps, join us in the [matrix channel](https://matrix.to/#/#kde-all-about-apps:kde.org) for the [apps goal](https://community.kde.org/Goals/All_about_the_Apps) to help out!
 
 
 ### PS
