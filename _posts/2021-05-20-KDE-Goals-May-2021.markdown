@@ -10,15 +10,15 @@ Hello! This is the first entry in a hopefully reoccurring series of blog posts a
 
 The purpose of this series is to provide a frequent update about the Goals, to highlight what cool things are happening.
 
-Of course, our Goal Champions can still create additional content about their goals in any form they want: short blog posts, videos, in-depth articles, etc. This blog will aggregate that content and also give the champions a way to share quick updates without spending to much time blogging.
+Of course, our Goal Champions can still create additional content about their goals in any form they want: short blog posts, videos, in-depth articles, etc. This blog will aggregate that content and also give the champions a way to share quick updates without spending too much time blogging.
 
-And with that, lets take a look at the updates!
+And with that, let's take a look at the updates!
 
 ## Wayland
 
 Plasma 5.22 is coming, and with that a lot of improvements and fixes to Wayland support. Readers of [Nate's blog](https://pointieststick.com/) have surely seen many of those highlighted.
 
-Personally, I'm very excited about variable refresh rate (FreeSync) support being added. I asked Xaver, author of the [merge request](https://invent.kde.org/plasma/kwin/-/merge_requests/718) (and the [GPU hot-plug](https://invent.kde.org/plasma/kwin/-/merge_requests/811) one!) to write about the new features. Hopefully we'll get some juicy details soon!
+Personally, I'm very excited about variable refresh rate (FreeSync) support being added. I asked Xaver, author of the [merge request](https://invent.kde.org/plasma/kwin/-/merge_requests/718) (and the [GPU hot-plug](https://invent.kde.org/plasma/kwin/-/merge_requests/811) one!) to write about the new features. Hopefully, we'll get some juicy details soon!
 
 Meanwhile, you can start testing Plasma 5.22 right now! David has a [post about that](http://blog.davidedmundson.co.uk/blog/plasma-5-22-beta-testing-day/). Be sure to report any bugs found and see if the list of [Wayland showstoppers](https://community.kde.org/Plasma/Wayland_Showstoppers) needs updating.
 
@@ -46,11 +46,11 @@ Niccolo sent over a full list of recent consistency updates!
 
 <https://invent.kde.org/plasma/breeze-gtk/-/merge_requests/18>
 
-6\. Calendar has been completely redesigned and now uses Plasma style elements more consistently: the toparea, the vertical line like in kickoff, etc
+6\. Calendar has been completely redesigned and now uses Plasma style elements more consistently: the top area, the vertical line like in kickoff, etc
 
 <https://invent.kde.org/plasma/plasma-workspace/-/merge_requests/727>
 
-7\. Work in progress: we are bringing the highlight from plasma everywhere on applications as well! A great step forward for our consistency goal of using the same highlight everywhere.
+7\. Work in progress: we are bringing the highlight from Plasma everywhere on applications as well! A great step forward for our consistency goal of using the same highlight everywhere.
 
 <https://www.youtube.com/watch?v=MppOSRfFbE8>
 
@@ -58,9 +58,9 @@ Oof, who knew there's so much work to do just to stay consistent!
 
 ## KDE is All About the Apps
 
-In a different kind of news, Jonathan has stepped down as the Goal Champion. Thank you very much for all the work done to make KDE a better home for apps Jonathan.
+In a different kind of news, Jonathan has stepped down as the Goal Champion. Thank you very much for all the work done to make KDE a better home for apps, Jonathan.
 
-The Goals new champion is [Aleix](http://www.proli.net/). He wants to start by asking the community to discuss a range of topics regarding the Goal. Here's a list from Aleix:
+The Goal's new champion is [Aleix](http://www.proli.net/). He wants to start by asking the community to discuss a range of topics regarding the Goal. Here's a list from Aleix:
 
 * platforms
   * linux
@@ -98,4 +98,4 @@ I'm sure we'll need a couple of meetings to cover all of that! If you're interes
 
 ## Meta
 
-While I'm not actually working on any of the Goals, I do help how I can with the KDE Goals initiative as a whole. This blog is part of that. Additionally, I plan to write a description of the Goal Champion role, since currently we don't have anything "official". Let me know if you have ideas what such a description should include.
+While I'm not actually working on any of the Goals, I do help how I can with the KDE Goals initiative as a whole. This blog is part of that. Additionally, I plan to write a description of the Goal Champion role, since currently we don't have anything "official". Let me know if you have ideas about what such a description should include.
