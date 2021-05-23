@@ -1,4 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://szopa.org.pl/feed.xml" rel="self" type="application/atom+xml" /><link href="https://szopa.org.pl/" rel="alternate" type="text/html" /><updated>2021-05-20T23:12:13+02:00</updated><id>https://szopa.org.pl/feed.xml</id><title type="html">Adam Szopa</title><subtitle>I'll put stuff here. Eventually.</subtitle><entry><title type="html">KDE Goals – a year lost, a year gained</title><link href="https://szopa.org.pl/kde/2021/01/23/A-Year-Lost-A-Year-Gained.html" rel="alternate" type="text/html" title="KDE Goals – a year lost, a year gained" /><published>2021-01-23T15:00:00+01:00</published><updated>2021-01-23T15:00:00+01:00</updated><id>https://szopa.org.pl/kde/2021/01/23/A-Year-Lost-A-Year-Gained</id><content type="html" xml:base="https://szopa.org.pl/kde/2021/01/23/A-Year-Lost-A-Year-Gained.html">&lt;p&gt;The year 2020 was difficult in many ways, but it also was important for me: I joined KDE e.V. as a consultant in the role of Project Coordinator.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://szopa.org.pl/feed.xml" rel="self" type="application/atom+xml" /><link href="https://szopa.org.pl/" rel="alternate" type="text/html" /><updated>2021-05-23T12:26:50+02:00</updated><id>https://szopa.org.pl/feed.xml</id><title type="html">Adam Szopa</title><subtitle>I'll put stuff here. Eventually.</subtitle><entry><title type="html">KDE Goals Update – May 2021</title><link href="https://szopa.org.pl/kde/2021/05/23/KDE-Goals-May-2021.html" rel="alternate" type="text/html" title="KDE Goals Update – May 2021" /><published>2021-05-23T12:00:00+02:00</published><updated>2021-05-23T12:00:00+02:00</updated><id>https://szopa.org.pl/kde/2021/05/23/KDE-Goals-May-2021</id><content type="html" xml:base="https://szopa.org.pl/kde/2021/05/23/KDE-Goals-May-2021.html">&lt;p&gt;Hello! This is the first entry in a hopefully reoccurring series of blog posts about the KDE Goals.&lt;/p&gt;
+
+&lt;p&gt;The purpose of this series is to provide a frequent update about the Goals, to highlight what cool things are happening.&lt;/p&gt;
+
+&lt;p&gt;Of course, our Goal Champions can still create additional content about their goals in any form they want: short blog posts, videos, in-depth articles, etc. This blog will aggregate that content and also give the champions a way to share quick updates without spending too much time blogging.&lt;/p&gt;
+
+&lt;p&gt;And with that, let’s take a look at the updates!&lt;/p&gt;
+
+&lt;h2 id=&quot;wayland&quot;&gt;Wayland&lt;/h2&gt;
+
+&lt;p&gt;Plasma 5.22 is coming, and with that a lot of improvements and fixes to Wayland support. Readers of &lt;a href=&quot;https://pointieststick.com/&quot;&gt;Nate’s blog&lt;/a&gt; have surely seen many of those highlighted.&lt;/p&gt;
+
+&lt;p&gt;Personally, I’m very excited about variable refresh rate (FreeSync) support being added. I asked Xaver, author of the &lt;a href=&quot;https://invent.kde.org/plasma/kwin/-/merge_requests/718&quot;&gt;merge request&lt;/a&gt; (and the &lt;a href=&quot;https://invent.kde.org/plasma/kwin/-/merge_requests/811&quot;&gt;GPU hot-plug&lt;/a&gt; one!) to write about the new features. Hopefully, we’ll get some juicy details soon!&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, you can start testing Plasma 5.22 right now! David has a &lt;a href=&quot;http://blog.davidedmundson.co.uk/blog/plasma-5-22-beta-testing-day/&quot;&gt;post about that&lt;/a&gt;. Be sure to report any bugs found and see if the list of &lt;a href=&quot;https://community.kde.org/Plasma/Wayland_Showstoppers&quot;&gt;Wayland showstoppers&lt;/a&gt; needs updating.&lt;/p&gt;
+
+&lt;h2 id=&quot;consistency&quot;&gt;Consistency&lt;/h2&gt;
+
+&lt;p&gt;Niccolo sent over a full list of recent consistency updates!&lt;/p&gt;
+
+&lt;p&gt;1. We are adding a new re-usable component called KHamburgerMenu that will make hamburger menus consistent throughout Plasma. It’s cool because it adapts to your toolbar: if you take an action off it will appear in the hamburger menu, and if you add an action it will disappear from it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://invent.kde.org/system/dolphin/-/merge_requests/168&quot;&gt;https://invent.kde.org/system/dolphin/-/merge_requests/168&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2. Ark now has a welcome screen!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://invent.kde.org/utilities/ark/-/merge_requests/47&quot;&gt;https://invent.kde.org/utilities/ark/-/merge_requests/47&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;3. Gwenview sidebar has been made more consistent with our current humane interface guidelines&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://invent.kde.org/graphics/gwenview/-/merge_requests/64&quot;&gt;https://invent.kde.org/graphics/gwenview/-/merge_requests/64&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;4. Discover now uses standard cards to display reviews instead of custom component&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://invent.kde.org/plasma/discover/-/merge_requests/80&quot;&gt;https://invent.kde.org/plasma/discover/-/merge_requests/80&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;5. Viewswitcher in libhandy now are more consistent to Plasma style&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://invent.kde.org/plasma/breeze-gtk/-/merge_requests/18&quot;&gt;https://invent.kde.org/plasma/breeze-gtk/-/merge_requests/18&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;6. Calendar has been completely redesigned and now uses Plasma style elements more consistently: the top area, the vertical line like in kickoff, etc&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://invent.kde.org/plasma/plasma-workspace/-/merge_requests/727&quot;&gt;https://invent.kde.org/plasma/plasma-workspace/-/merge_requests/727&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;7. Work in progress: we are bringing the highlight from Plasma everywhere on applications as well! A great step forward for our consistency goal of using the same highlight everywhere.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=MppOSRfFbE8&quot;&gt;https://www.youtube.com/watch?v=MppOSRfFbE8&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Oof, who knew there’s so much work to do just to stay consistent!&lt;/p&gt;
+
+&lt;h2 id=&quot;kde-is-all-about-the-apps&quot;&gt;KDE is All About the Apps&lt;/h2&gt;
+
+&lt;p&gt;In a different kind of news, Jonathan has stepped down as the Goal Champion. Thank you very much for all the work done to make KDE a better home for apps, Jonathan.&lt;/p&gt;
+
+&lt;p&gt;The Goal’s new champion is &lt;a href=&quot;http://www.proli.net/&quot;&gt;Aleix&lt;/a&gt;. He wants to start by asking the community to discuss a range of topics regarding the Goal. Here’s a list from Aleix:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;platforms
+    &lt;ul&gt;
+      &lt;li&gt;linux
+        &lt;ul&gt;
+          &lt;li&gt;flatpak&lt;/li&gt;
+          &lt;li&gt;appimage&lt;/li&gt;
+          &lt;li&gt;snap&lt;/li&gt;
+          &lt;li&gt;distros&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;bsd&lt;/li&gt;
+      &lt;li&gt;android&lt;/li&gt;
+      &lt;li&gt;windows&lt;/li&gt;
+      &lt;li&gt;os x&lt;br /&gt;
+??? to discuss: ways to reach the platform, our unique selling points there to focus&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;promo
+    &lt;ul&gt;
+      &lt;li&gt;website presence&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;business
+    &lt;ul&gt;
+      &lt;li&gt;making money for devs&lt;/li&gt;
+      &lt;li&gt;fundraising for KDE&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;suites
+    &lt;ul&gt;
+      &lt;li&gt;PIM&lt;/li&gt;
+      &lt;li&gt;Edu&lt;/li&gt;
+      &lt;li&gt;Calligra&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;developer story&lt;/li&gt;
+  &lt;li&gt;Plasma
+    &lt;ul&gt;
+      &lt;li&gt;Plasma &amp;amp; apps
+        &lt;ul&gt;
+          &lt;li&gt;which apps should be just considered plasma-specific/oriented? what can we leverage from this specificity?&lt;/li&gt;
+          &lt;li&gt;what apps are we lacking?&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Plasma mobile&lt;/li&gt;
+      &lt;li&gt;Plasma desktop (?)&lt;/li&gt;
+      &lt;li&gt;other form factors: TV, tablet, etc&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Tech used
+    &lt;ul&gt;
+      &lt;li&gt;Kirigami and KDE Apps&lt;/li&gt;
+      &lt;li&gt;KXMLGUI and KDE Apps&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m sure we’ll need a couple of meetings to cover all of that! If you’re interested in participating in the discussion of ANY of those topics, please reach out specify which ones. This will help narrow down the focus of the first meeting.&lt;/p&gt;
+
+&lt;h2 id=&quot;meta&quot;&gt;Meta&lt;/h2&gt;
+
+&lt;p&gt;While I’m not actually working on any of the Goals, I do help how I can with the KDE Goals initiative as a whole. This blog is part of that. Additionally, I plan to write a description of the Goal Champion role, since currently we don’t have anything “official”. Let me know if you have ideas about what such a description should include.&lt;/p&gt;</content><author><name></name></author><category term="KDE" /><summary type="html">Hello! This is the first entry in a hopefully reoccurring series of blog posts about the KDE Goals.</summary></entry><entry><title type="html">KDE Goals – a year lost, a year gained</title><link href="https://szopa.org.pl/kde/2021/01/23/A-Year-Lost-A-Year-Gained.html" rel="alternate" type="text/html" title="KDE Goals – a year lost, a year gained" /><published>2021-01-23T15:00:00+01:00</published><updated>2021-01-23T15:00:00+01:00</updated><id>https://szopa.org.pl/kde/2021/01/23/A-Year-Lost-A-Year-Gained</id><content type="html" xml:base="https://szopa.org.pl/kde/2021/01/23/A-Year-Lost-A-Year-Gained.html">&lt;p&gt;The year 2020 was difficult in many ways, but it also was important for me: I joined KDE e.V. as a consultant in the role of Project Coordinator.&lt;/p&gt;
 
 &lt;p&gt;One of the main focuses of mine was supporting the &lt;a href=&quot;https://kde.org/goals/&quot;&gt;KDE Goals&lt;/a&gt; initiative, which resulted in creating a formalized &lt;a href=&quot;https://community.kde.org/Goals/Goals_Process&quot;&gt;process&lt;/a&gt;.&lt;/p&gt;
 

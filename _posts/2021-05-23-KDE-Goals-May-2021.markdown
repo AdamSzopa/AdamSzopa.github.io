@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "KDE Goals Update – May 2021"
-published: false
-date:   2021-05-23 12:00:00 +0100
+published: true
+date:   2021-05-23 11:00:00 +0100
 categories: KDE
 ---
 
