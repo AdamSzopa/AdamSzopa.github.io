@@ -1,0 +1,73 @@
+---
+layout: post
+title:  "KDE Goals Update – June 2021"
+published: true
+date:   2021-06-16 19:00:00 +0100
+categories: KDE
+---
+
+Hello!
+
+[Akademy](https://akademy.kde.org/2021) starts in a few days, and the Champions and I will be focusing on that. However, there are still some interesting updates we'd like to share with you.
+
+Let's jump right in!
+
+![Akademy 2021 logo](/assets/akademy2021logo.png)
+
+## Wayland
+
+With every recent Plasma update (and especially the just released [version 5.22](https://kde.org/announcements/plasma/5/5.22.0/)) the list of features that are X11 exclusive gets smaller and smaller.
+
+Conversely, many users may not be aware that the opposite is also happening: every day there are more features available on Wayland that cannot be found on X11!
+
+There are many resources available describing the security advantages of Wayland over X11, but the ageing protocol has some other shortcomings as well. For example, the last update we highlighted was the recently released [VRR support](https://invent.kde.org/plasma/kwin/-/merge_requests/718) in 5.22. Among other things, this enables an important use case for me: it allows each of my connected displays to operate at their highest refresh rate. I have a 144Hz main display, but occasionally I plug in my TV, which works at 60Hz. Because of limitations of X11, for everything to work, my main display needs to be limited to 60Hz when both of them are active. But not any more thanks to Wayland!
+
+While the KDE developers always try to bring new functionalities to all users, the above example shows that sometimes, either due to X11 limitations or for other reasons, feature parity will not be possible.
+
+For different, but similar reasons, some other features that are Wayland exclusive are:
+
+* Finding stuff using the Global Menu search [https://invent.kde.org/plasma/plasma-workspace/-/merge_requests/134](https://invent.kde.org/plasma/plasma-workspace/-/merge_requests/134)
+* Setting scroll speed factors for input devices [https://phabricator.kde.org/D28310](https://phabricator.kde.org/D28310)
+* Setting multiple DPIs across different displays
+* Automatically setting Notifications to "do not disturb" when screencasting <https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/merge_requests/33>
+* Stopping applications currently screencasting <https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/merge_requests/38>
+
+You can be sure that the list of Wayland exclusives will grow and grow as work progresses.
+
+Méven and Vlad will have a Wayland Goal talk at Akademy. Check out the details here: <https://conf.kde.org/event/1/contributions/5/>
+
+## Consistency
+
+When you think about consistency, you may think of how different parts of your Plasma desktop should look and behave in a similar way, like scrollbars should all look the same on all windows. Or like when you open a new tab, it should always open in the same place, regardless of the app.
+
+But the KDE developers also think about the bigger picture, like: How can we achieve a consistent experience between your desktop and your phone? Here's where [Kirigami](https://develop.kde.org/frameworks/kirigami/) comes in! It makes sense to have applications like [NeoChat](https://apps.kde.org/neochat/) and [Tok](https://invent.kde.org/network/tok) on both Plasma desktop and [Plasma Mobile](https://www.plasma-mobile.org/), and, thanks to the Kirigami framework, users will feel at home on both form factors. Now I want to see Kirigami apps on a smartwatch!
+
+![NeoChat desktop and mobile powered by Kirigami](/assets/neochat_combined.png)
+*NeoChat desktop and mobile powered by Kirigami*
+
+Speaking of Kirigami, there is work being done on a component called "swipenavigator" to increase its - you guessed it - consistency, among other fixes. Details of the rewrite are in the [merge request](https://invent.kde.org/frameworks/kirigami/-/merge_requests/310).
+
+Do you care about looks? Then you'll be interested in two MR's: the first regarding [better shadows](https://invent.kde.org/frameworks/plasma-framework/-/merge_requests/270), and the other is the "Blue Ocean" style for buttons, checkboxes etc. There are some details at [Nates blog](https://pointieststick.com/2021/06/11/this-week-in-kde-plasma-5-22-arrives-but-i-bet-youll-want-5-23-once-i-show-you-this/).
+
+Our Consistency Champion Niccolò has a Goal talk during Akademy, so be sure to [watch it](https://conf.kde.org/event/1/contributions/1/)!
+
+## KDE is All About the Apps
+
+As announced on the community mailing list and the *Goals* matrix room, there was a meeting last Monday to discuss the way forward with the huge list of topics mentioned in the previous update.
+
+In the meeting, the conclusion was to start with the topics regarding the different platforms we support, as well as the automation of the build/release process of apps.
+
+Taking advantage of the upcoming Akademy, the topics will be discussed during the BoF sessions. Check out the [schedule](https://community.kde.org/Akademy/2021/AllBoF) to see when you can attend! Also, don't miss the "Creating Plasma Mobile apps" BoF!
+
+Of course, like the other Goal Champions, Aleix will have a talk on the first day of Akademy, [don't miss it](https://conf.kde.org/event/1/contributions/6/)!
+
+## Meta
+
+Right after the three *Goal* talks at Akademy, there will be a[ KDE Goals round table](https://conf.kde.org/event/1/contributions/7/), a session where Lydia and I will be joined by the Champions to answer community questions regarding the specific goals, and the goal program as a whole.
+
+Later in the event, on Monday June 21st at 18:00 UTC, I will conduct a BoF regarding selecting the next goals! Be sure to join in, if you were thinking about becoming a Champion yourself, or if you're just curious about the process.
+
+See you there!
+
+![This is how I would look like in the Akademy t-shirt, if Akademy was an in-person event this year. And held outside.](/assets/adam_tshirt2021_small.jpg)
+*This is how I would look like in the Akademy t-shirt, if Akademy was an in-person event this year. And held outside.*

@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://szopa.org.pl/feed.xml" rel="self" type="application/atom+xml" /><link href="https://szopa.org.pl/" rel="alternate" type="text/html" /><updated>2021-05-23T12:26:50+02:00</updated><id>https://szopa.org.pl/feed.xml</id><title type="html">Adam Szopa</title><subtitle>I'll put stuff here. Eventually.</subtitle><entry><title type="html">KDE Goals Update – May 2021</title><link href="https://szopa.org.pl/kde/2021/05/23/KDE-Goals-May-2021.html" rel="alternate" type="text/html" title="KDE Goals Update – May 2021" /><published>2021-05-23T12:00:00+02:00</published><updated>2021-05-23T12:00:00+02:00</updated><id>https://szopa.org.pl/kde/2021/05/23/KDE-Goals-May-2021</id><content type="html" xml:base="https://szopa.org.pl/kde/2021/05/23/KDE-Goals-May-2021.html">&lt;p&gt;Hello! This is the first entry in a hopefully reoccurring series of blog posts about the KDE Goals.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://szopa.org.pl/feed.xml" rel="self" type="application/atom+xml" /><link href="https://szopa.org.pl/" rel="alternate" type="text/html" /><updated>2021-06-16T20:00:59+02:00</updated><id>https://szopa.org.pl/feed.xml</id><title type="html">Adam Szopa</title><subtitle>I'll put stuff here. Eventually.</subtitle><entry><title type="html">KDE Goals Update – June 2021</title><link href="https://szopa.org.pl/kde/2021/06/16/KDE-Goals-June-2021.html" rel="alternate" type="text/html" title="KDE Goals Update – June 2021" /><published>2021-06-16T20:00:00+02:00</published><updated>2021-06-16T20:00:00+02:00</updated><id>https://szopa.org.pl/kde/2021/06/16/KDE-Goals-June-2021</id><content type="html" xml:base="https://szopa.org.pl/kde/2021/06/16/KDE-Goals-June-2021.html">&lt;p&gt;Hello!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://akademy.kde.org/2021&quot;&gt;Akademy&lt;/a&gt; starts in a few days, and the Champions and I will be focusing on that. However, there are still some interesting updates we’d like to share with you.&lt;/p&gt;
+
+&lt;p&gt;Let’s jump right in!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/akademy2021logo.png&quot; alt=&quot;Akademy 2021 logo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;wayland&quot;&gt;Wayland&lt;/h2&gt;
+
+&lt;p&gt;With every recent Plasma update (and especially the just released &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.22.0/&quot;&gt;version 5.22&lt;/a&gt;) the list of features that are X11 exclusive gets smaller and smaller.&lt;/p&gt;
+
+&lt;p&gt;Conversely, many users may not be aware that the opposite is also happening: every day there are more features available on Wayland that cannot be found on X11!&lt;/p&gt;
+
+&lt;p&gt;There are many resources available describing the security advantages of Wayland over X11, but the ageing protocol has some other shortcomings as well. For example, the last update we highlighted was the recently released &lt;a href=&quot;https://invent.kde.org/plasma/kwin/-/merge_requests/718&quot;&gt;VRR support&lt;/a&gt; in 5.22. Among other things, this enables an important use case for me: it allows each of my connected displays to operate at their highest refresh rate. I have a 144Hz main display, but occasionally I plug in my TV, which works at 60Hz. Because of limitations of X11, for everything to work, my main display needs to be limited to 60Hz when both of them are active. But not any more thanks to Wayland!&lt;/p&gt;
+
+&lt;p&gt;While the KDE developers always try to bring new functionalities to all users, the above example shows that sometimes, either due to X11 limitations or for other reasons, feature parity will not be possible.&lt;/p&gt;
+
+&lt;p&gt;For different, but similar reasons, some other features that are Wayland exclusive are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Finding stuff using the Global Menu search &lt;a href=&quot;https://invent.kde.org/plasma/plasma-workspace/-/merge_requests/134&quot;&gt;https://invent.kde.org/plasma/plasma-workspace/-/merge_requests/134&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Setting scroll speed factors for input devices &lt;a href=&quot;https://phabricator.kde.org/D28310&quot;&gt;https://phabricator.kde.org/D28310&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Setting multiple DPIs across different displays&lt;/li&gt;
+  &lt;li&gt;Automatically setting Notifications to “do not disturb” when screencasting &lt;a href=&quot;https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/merge_requests/33&quot;&gt;https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/merge_requests/33&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Stopping applications currently screencasting &lt;a href=&quot;https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/merge_requests/38&quot;&gt;https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/merge_requests/38&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can be sure that the list of Wayland exclusives will grow and grow as work progresses.&lt;/p&gt;
+
+&lt;p&gt;Méven and Vlad will have a Wayland Goal talk at Akademy. Check out the details here: &lt;a href=&quot;https://conf.kde.org/event/1/contributions/5/&quot;&gt;https://conf.kde.org/event/1/contributions/5/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;consistency&quot;&gt;Consistency&lt;/h2&gt;
+
+&lt;p&gt;When you think about consistency, you may think of how different parts of your Plasma desktop should look and behave in a similar way, like scrollbars should all look the same on all windows. Or like when you open a new tab, it should always open in the same place, regardless of the app.&lt;/p&gt;
+
+&lt;p&gt;But the KDE developers also think about the bigger picture, like: How can we achieve a consistent experience between your desktop and your phone? Here’s where &lt;a href=&quot;https://develop.kde.org/frameworks/kirigami/&quot;&gt;Kirigami&lt;/a&gt; comes in! It makes sense to have applications like &lt;a href=&quot;https://apps.kde.org/neochat/&quot;&gt;NeoChat&lt;/a&gt; and &lt;a href=&quot;https://invent.kde.org/network/tok&quot;&gt;Tok&lt;/a&gt; on both Plasma desktop and &lt;a href=&quot;https://www.plasma-mobile.org/&quot;&gt;Plasma Mobile&lt;/a&gt;, and, thanks to the Kirigami framework, users will feel at home on both form factors. Now I want to see Kirigami apps on a smartwatch!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/neochat_combined.png&quot; alt=&quot;NeoChat desktop and mobile powered by Kirigami&quot; /&gt;
+&lt;em&gt;NeoChat desktop and mobile powered by Kirigami&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Speaking of Kirigami, there is work being done on a component called “swipenavigator” to increase its - you guessed it - consistency, among other fixes. Details of the rewrite are in the &lt;a href=&quot;https://invent.kde.org/frameworks/kirigami/-/merge_requests/310&quot;&gt;merge request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Do you care about looks? Then you’ll be interested in two MR’s: the first regarding &lt;a href=&quot;https://invent.kde.org/frameworks/plasma-framework/-/merge_requests/270&quot;&gt;better shadows&lt;/a&gt;, and the other is the “Blue Ocean” style for buttons, checkboxes etc. There are some details at &lt;a href=&quot;https://pointieststick.com/2021/06/11/this-week-in-kde-plasma-5-22-arrives-but-i-bet-youll-want-5-23-once-i-show-you-this/&quot;&gt;Nates blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our Consistency Champion Niccolò has a Goal talk during Akademy, so be sure to &lt;a href=&quot;https://conf.kde.org/event/1/contributions/1/&quot;&gt;watch it&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h2 id=&quot;kde-is-all-about-the-apps&quot;&gt;KDE is All About the Apps&lt;/h2&gt;
+
+&lt;p&gt;As announced on the community mailing list and the &lt;em&gt;Goals&lt;/em&gt; matrix room, there was a meeting last Monday to discuss the way forward with the huge list of topics mentioned in the previous update.&lt;/p&gt;
+
+&lt;p&gt;In the meeting, the conclusion was to start with the topics regarding the different platforms we support, as well as the automation of the build/release process of apps.&lt;/p&gt;
+
+&lt;p&gt;Taking advantage of the upcoming Akademy, the topics will be discussed during the BoF sessions. Check out the &lt;a href=&quot;https://community.kde.org/Akademy/2021/AllBoF&quot;&gt;schedule&lt;/a&gt; to see when you can attend! Also, don’t miss the “Creating Plasma Mobile apps” BoF!&lt;/p&gt;
+
+&lt;p&gt;Of course, like the other Goal Champions, Aleix will have a talk on the first day of Akademy, &lt;a href=&quot;https://conf.kde.org/event/1/contributions/6/&quot;&gt;don’t miss it&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h2 id=&quot;meta&quot;&gt;Meta&lt;/h2&gt;
+
+&lt;p&gt;Right after the three &lt;em&gt;Goal&lt;/em&gt; talks at Akademy, there will be a&lt;a href=&quot;https://conf.kde.org/event/1/contributions/7/&quot;&gt; KDE Goals round table&lt;/a&gt;, a session where Lydia and I will be joined by the Champions to answer community questions regarding the specific goals, and the goal program as a whole.&lt;/p&gt;
+
+&lt;p&gt;Later in the event, on Monday June 21st at 18:00 UTC, I will conduct a BoF regarding selecting the next goals! Be sure to join in, if you were thinking about becoming a Champion yourself, or if you’re just curious about the process.&lt;/p&gt;
+
+&lt;p&gt;See you there!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/adam_tshirt2021_small.jpg&quot; alt=&quot;This is how I would look like in the Akademy t-shirt, if Akademy was an in-person event this year. And held outside.&quot; /&gt;
+&lt;em&gt;This is how I would look like in the Akademy t-shirt, if Akademy was an in-person event this year. And held outside.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="KDE" /><summary type="html">Hello!</summary></entry><entry><title type="html">KDE Goals Update – May 2021</title><link href="https://szopa.org.pl/kde/2021/05/23/KDE-Goals-May-2021.html" rel="alternate" type="text/html" title="KDE Goals Update – May 2021" /><published>2021-05-23T12:00:00+02:00</published><updated>2021-05-23T12:00:00+02:00</updated><id>https://szopa.org.pl/kde/2021/05/23/KDE-Goals-May-2021</id><content type="html" xml:base="https://szopa.org.pl/kde/2021/05/23/KDE-Goals-May-2021.html">&lt;p&gt;Hello! This is the first entry in a hopefully reoccurring series of blog posts about the KDE Goals.&lt;/p&gt;
 
 &lt;p&gt;The purpose of this series is to provide a frequent update about the Goals, to highlight what cool things are happening.&lt;/p&gt;
 

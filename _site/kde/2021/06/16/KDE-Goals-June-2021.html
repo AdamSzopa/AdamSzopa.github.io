@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>KDE Goals Update – June 2021 | Adam Szopa</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="KDE Goals Update – June 2021" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hello!" />
+<meta property="og:description" content="Hello!" />
+<link rel="canonical" href="https://szopa.org.pl/kde/2021/06/16/KDE-Goals-June-2021.html" />
+<meta property="og:url" content="https://szopa.org.pl/kde/2021/06/16/KDE-Goals-June-2021.html" />
+<meta property="og:site_name" content="Adam Szopa" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-16T20:00:00+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="KDE Goals Update – June 2021" />
+<script type="application/ld+json">
+{"url":"https://szopa.org.pl/kde/2021/06/16/KDE-Goals-June-2021.html","description":"Hello!","@type":"BlogPosting","headline":"KDE Goals Update – June 2021","dateModified":"2021-06-16T20:00:00+02:00","datePublished":"2021-06-16T20:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://szopa.org.pl/kde/2021/06/16/KDE-Goals-June-2021.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://szopa.org.pl/feed.xml" title="Adam Szopa" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Adam Szopa</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">KDE Goals Update – June 2021</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-06-16T20:00:00+02:00" itemprop="datePublished">Jun 16, 2021
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Hello!</p>
+
+<p><a href="https://akademy.kde.org/2021">Akademy</a> starts in a few days, and the Champions and I will be focusing on that. However, there are still some interesting updates we’d like to share with you.</p>
+
+<p>Let’s jump right in!</p>
+
+<p><img src="/assets/akademy2021logo.png" alt="Akademy 2021 logo" /></p>
+
+<h2 id="wayland">Wayland</h2>
+
+<p>With every recent Plasma update (and especially the just released <a href="https://kde.org/announcements/plasma/5/5.22.0/">version 5.22</a>) the list of features that are X11 exclusive gets smaller and smaller.</p>
+
+<p>Conversely, many users may not be aware that the opposite is also happening: every day there are more features available on Wayland that cannot be found on X11!</p>
+
+<p>There are many resources available describing the security advantages of Wayland over X11, but the ageing protocol has some other shortcomings as well. For example, the last update we highlighted was the recently released <a href="https://invent.kde.org/plasma/kwin/-/merge_requests/718">VRR support</a> in 5.22. Among other things, this enables an important use case for me: it allows each of my connected displays to operate at their highest refresh rate. I have a 144Hz main display, but occasionally I plug in my TV, which works at 60Hz. Because of limitations of X11, for everything to work, my main display needs to be limited to 60Hz when both of them are active. But not any more thanks to Wayland!</p>
+
+<p>While the KDE developers always try to bring new functionalities to all users, the above example shows that sometimes, either due to X11 limitations or for other reasons, feature parity will not be possible.</p>
+
+<p>For different, but similar reasons, some other features that are Wayland exclusive are:</p>
+
+<ul>
+  <li>Finding stuff using the Global Menu search <a href="https://invent.kde.org/plasma/plasma-workspace/-/merge_requests/134">https://invent.kde.org/plasma/plasma-workspace/-/merge_requests/134</a></li>
+  <li>Setting scroll speed factors for input devices <a href="https://phabricator.kde.org/D28310">https://phabricator.kde.org/D28310</a></li>
+  <li>Setting multiple DPIs across different displays</li>
+  <li>Automatically setting Notifications to “do not disturb” when screencasting <a href="https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/merge_requests/33">https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/merge_requests/33</a></li>
+  <li>Stopping applications currently screencasting <a href="https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/merge_requests/38">https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/merge_requests/38</a></li>
+</ul>
+
+<p>You can be sure that the list of Wayland exclusives will grow and grow as work progresses.</p>
+
+<p>Méven and Vlad will have a Wayland Goal talk at Akademy. Check out the details here: <a href="https://conf.kde.org/event/1/contributions/5/">https://conf.kde.org/event/1/contributions/5/</a></p>
+
+<h2 id="consistency">Consistency</h2>
+
+<p>When you think about consistency, you may think of how different parts of your Plasma desktop should look and behave in a similar way, like scrollbars should all look the same on all windows. Or like when you open a new tab, it should always open in the same place, regardless of the app.</p>
+
+<p>But the KDE developers also think about the bigger picture, like: How can we achieve a consistent experience between your desktop and your phone? Here’s where <a href="https://develop.kde.org/frameworks/kirigami/">Kirigami</a> comes in! It makes sense to have applications like <a href="https://apps.kde.org/neochat/">NeoChat</a> and <a href="https://invent.kde.org/network/tok">Tok</a> on both Plasma desktop and <a href="https://www.plasma-mobile.org/">Plasma Mobile</a>, and, thanks to the Kirigami framework, users will feel at home on both form factors. Now I want to see Kirigami apps on a smartwatch!</p>
+
+<p><img src="/assets/neochat_combined.png" alt="NeoChat desktop and mobile powered by Kirigami" />
+<em>NeoChat desktop and mobile powered by Kirigami</em></p>
+
+<p>Speaking of Kirigami, there is work being done on a component called “swipenavigator” to increase its - you guessed it - consistency, among other fixes. Details of the rewrite are in the <a href="https://invent.kde.org/frameworks/kirigami/-/merge_requests/310">merge request</a>.</p>
+
+<p>Do you care about looks? Then you’ll be interested in two MR’s: the first regarding <a href="https://invent.kde.org/frameworks/plasma-framework/-/merge_requests/270">better shadows</a>, and the other is the “Blue Ocean” style for buttons, checkboxes etc. There are some details at <a href="https://pointieststick.com/2021/06/11/this-week-in-kde-plasma-5-22-arrives-but-i-bet-youll-want-5-23-once-i-show-you-this/">Nates blog</a>.</p>
+
+<p>Our Consistency Champion Niccolò has a Goal talk during Akademy, so be sure to <a href="https://conf.kde.org/event/1/contributions/1/">watch it</a>!</p>
+
+<h2 id="kde-is-all-about-the-apps">KDE is All About the Apps</h2>
+
+<p>As announced on the community mailing list and the <em>Goals</em> matrix room, there was a meeting last Monday to discuss the way forward with the huge list of topics mentioned in the previous update.</p>
+
+<p>In the meeting, the conclusion was to start with the topics regarding the different platforms we support, as well as the automation of the build/release process of apps.</p>
+
+<p>Taking advantage of the upcoming Akademy, the topics will be discussed during the BoF sessions. Check out the <a href="https://community.kde.org/Akademy/2021/AllBoF">schedule</a> to see when you can attend! Also, don’t miss the “Creating Plasma Mobile apps” BoF!</p>
+
+<p>Of course, like the other Goal Champions, Aleix will have a talk on the first day of Akademy, <a href="https://conf.kde.org/event/1/contributions/6/">don’t miss it</a>!</p>
+
+<h2 id="meta">Meta</h2>
+
+<p>Right after the three <em>Goal</em> talks at Akademy, there will be a<a href="https://conf.kde.org/event/1/contributions/7/"> KDE Goals round table</a>, a session where Lydia and I will be joined by the Champions to answer community questions regarding the specific goals, and the goal program as a whole.</p>
+
+<p>Later in the event, on Monday June 21st at 18:00 UTC, I will conduct a BoF regarding selecting the next goals! Be sure to join in, if you were thinking about becoming a Champion yourself, or if you’re just curious about the process.</p>
+
+<p>See you there!</p>
+
+<p><img src="/assets/adam_tshirt2021_small.jpg" alt="This is how I would look like in the Akademy t-shirt, if Akademy was an in-person event this year. And held outside." />
+<em>This is how I would look like in the Akademy t-shirt, if Akademy was an in-person event this year. And held outside.</em></p>
+
+  </div>
+<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+  <div id="comment-section"></div>
+<script>
+initComments({
+  node: document.getElementById("comment-section"),
+  defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+  serverName: "cactus.chat",
+  siteName: "szopa.org.pl",
+  commentSectionId: "/kde/2021/06/16/KDE-Goals-June-2021"
+})
+</script><a class="u-url" href="/kde/2021/06/16/KDE-Goals-June-2021.html" hidden></a>
+</article>
+
+      </div>
+    </main></body>
+
+</html>
